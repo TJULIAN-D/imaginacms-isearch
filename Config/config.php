@@ -80,8 +80,6 @@ return [
     'filters' => [
 
         'searchRepositories' => [
-            'title' => trans('isearch::common.filters.searchRepositories.title'),
-            'entityTitle' => trans('isearch::common.filters.searchRepositories.entity title'),
             'name' => 'searchRepositories',
             'classes' => 'col-sm-12 col-lg-12 form-group-select',
             'status' => true,
