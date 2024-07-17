@@ -29,4 +29,11 @@ class CacheSearchDecorator extends BaseCacheDecorator implements SearchRepositor
         });
     }
 
+    public function getItemsBy($params)
+    {
+        return $this->remember(function () use ($params) {
+            return $this->repository->getItemsBy($params);
+        });
+    }
+
 }
