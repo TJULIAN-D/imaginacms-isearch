@@ -23,7 +23,7 @@ class Search extends Component
   public $styleButton;
 
   protected $queryString = [
-      'search' => ['keep' => true],
+      'search' => ['except' => ''],
   ];
 
 
