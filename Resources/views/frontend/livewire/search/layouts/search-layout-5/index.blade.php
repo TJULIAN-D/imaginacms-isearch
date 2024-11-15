@@ -1,5 +1,5 @@
 <div class="searchLayout5">
-  <a class="btn-search {{$classButton}}" data-toggle="modal" data-target="#modalSearch5">
+  <a data-testid="button-search-modal" class="btn-search {{$classButton}}" data-toggle="modal" data-target="#modalSearch5">
     <i class="{{ $icon }}"></i>
   </a>
   <div id="modalSearch5" class="modal fade p-0" tabindex="-1" aria-hidden="true" wire:ignore.self>

@@ -17,7 +17,7 @@
     </div>
   </div>
   @if($showModal)
-    <a data-toggle="modal" data-target="#searchModal"
+    <a data-testid="button-search-modal" data-toggle="modal" data-target="#searchModal"
        class="btn btn-link text-secondary icon cursor-pointer d-md-none">
       <i class="{{ $icon }}"></i>
     </a>
