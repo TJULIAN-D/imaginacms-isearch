@@ -1,5 +1,5 @@
 <div id="searchLayout1">
-    <a data-toggle="modal" data-target="#searchModal"
+    <a data-testid="button-search-modal" data-toggle="modal" data-target="#searchModal"
        class="btn btn-link text-secondary icon cursor-pointer {{$classButton}}">
         <i class="{{ $icon }}"></i>
     </a>
