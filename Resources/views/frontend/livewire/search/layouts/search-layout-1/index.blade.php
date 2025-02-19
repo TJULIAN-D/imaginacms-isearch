@@ -1,7 +1,12 @@
 <div id="searchLayout1">
     <a data-testid="button-search-modal" data-toggle="modal" data-target="#searchModal"
        class="btn btn-link text-secondary icon cursor-pointer {{$classButton}}">
-        <i class="{{ $icon }}"></i>
+      <i class="{{ $icon }}"></i>
+      @if($withLabelButton)
+          <div class="label-button-search">
+              {{$labelButton}}
+          </div>
+      @endif
     </a>
     <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true" wire:ignore.self>
         <div class="modal-dialog  modal-lg" role="document">
