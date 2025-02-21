@@ -26,6 +26,15 @@ return [
                 "label" => "Placeholder del Buscador"
             ]
         ],
+        "labelButton" => [
+            "name" => "labelButton",
+            "type" => "input",
+            "columns" => "col-12",
+            "isTranslatable" => true,
+            "props" => [
+                "label" => "Texto para botón"
+            ]
+        ],
     ],
     "attributes" => [
       "general" => [
@@ -53,6 +62,16 @@ return [
             "props" => [
                 "label" => "Icono",
             ]
+          ],
+          "withLabelButton" =>[
+            "name" => "withLabelButton",
+            "columns" => "col-12 col-md-6",
+            'type' => 'select',
+            "props" => [
+              "label" => "Mostrar label en botón",
+              'type' => 'select',
+              "options" => $vAttributes["booleanValidation"],
+            ],
           ],
           "classButton" => [
             "name" => "classButton",
